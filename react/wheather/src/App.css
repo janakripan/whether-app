@@ -1,0 +1,36 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App{
+  background-color: rgb(26, 65, 172);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  color: aliceblue;
+}
+p{
+  color: rgb(218, 208, 196);
+}
+#temperature{
+  font-size: 2rem;
+  color: rgb(179, 118, 128);
+}
+button{
+  padding: 5px 15px;
+  background-color: rgb(124, 92, 124);
+  border: none;
+}
+button:hover{
+  background-color: rgb(156, 135, 156);
+  transition: 2ms;
+}
+#city{
+  color: chartreuse;
+  font-size: 1rem;
+}
